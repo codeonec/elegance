@@ -1,0 +1,432 @@
+::-moz-selection 
+{
+	color: #fff;
+	background: #00bed7;
+}
+::selection 
+{
+	color: #fff;
+	background: #00bed7;
+}
+@font-face{
+	font-family: 'apple-bold';
+	src: url('../fonts/apple-bold.ttf');
+}
+@font-face{
+	font-family: 'apple-regular';
+	src: url('../fonts/apple-regular.ttf');
+}
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: apple-regular;
+}
+#pre-loader
+{
+	position: fixed;
+	background: #fff url('../images/pre-loader.gif') no-repeat center;
+	height: 100vh;
+	width: 100%;
+	z-index: 999999;
+}
+
+nav
+{
+	width: 100%;
+	background: rgba(0,0,0,0);
+	position: fixed;
+	z-index: 1111;
+	transition: 0.7s ease;
+}
+nav ul
+{
+	margin: 0 auto;
+	padding: 0;
+	float: right;
+}
+nav ul li
+{
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+	transition: 1s ease;
+	border-bottom: 5px solid transparent;
+	margin: 5px;
+}
+nav ul li:hover
+{
+	border-bottom: 5px solid #00B0FF;
+}
+nav ul li a
+{
+	text-decoration: none;
+	color: #fff;
+	font-family: apple-bold;
+}
+nav ul li:hover a
+{
+	color: #000;
+}
+nav .toogle
+{
+	width: 100%;
+	padding: 10px 20px;
+	background: #fff;
+	text-align: right;
+	box-sizing: border-box;
+	color: #000;
+	font-size: 20px;
+	display: none;
+}
+@media (max-width: 768px)
+{
+	nav
+	{
+		background: #EEEEEE;
+	}
+	nav .toogle
+	{
+		display: block;
+	}
+	nav ul
+	{
+		width: 100%;
+		display: none;
+	}
+	nav ul li
+	{
+		display: block;
+		text-align: center;
+	}
+	nav ul li a
+	{
+		color: #000;
+	}
+	.active
+	{
+		display: block;
+	}
+	#logo
+	{
+		color: #000;
+	}
+}
+.black
+{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: rgba(256, 256, 256,1.0);
+	overflow: hidden;
+	box-shadow: 2px 18px 20px #8888;
+}
+.black a
+{
+	color: #000;
+}
+.black .logo
+{
+	color: #00B0FF;
+}
+.black + .body1
+{
+
+	padding-top: 60px;
+}
+#active
+{
+	border-bottom: 5px solid #00B0FF;
+}
+#active a
+{
+	color: #00B0FF;
+}
+.body1
+{
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/1.jpg);
+	background-size: cover;
+	background-position: center; 
+ 	height: 100vh;
+ 	font-family: sans-serif;
+ 	position: relative;
+}
+.body2
+{
+	background: linear-gradient(90deg, rgba(30,144,255,1),rgba(138,43,226,1));
+	background-size: cover;
+	height: 75vh;
+	width: 100%; 
+}
+nav .logo 
+{
+
+	background: rgba(0,0,0,0);
+	float: left;
+	margin-left: 10px;
+	color: #FFF;
+	font-family: apple-bold;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 8px;
+	text-shadow: 2px 5px 5px #8888;
+	pointer-events: none;
+	transition: 0.5s;
+	display: flex;
+}
+nav .logo h3
+{
+	font-family: apple-bold;
+	font-weight: normal;
+	font-size: 30px;
+	padding-left: 5px;
+}
+nav .logo img
+{
+	height: 35px;
+	width: auto;
+}
+.ntext1
+{
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: rgba(0,0,0,0);
+	font-family: apple-regular;
+	font-size: 20px;
+	color: rgba(256,256,256,0.9);
+	text-align: center;
+
+}
+.ntext1 h1
+{
+	background: inherit;
+	font-family: apple-bold;
+	font-size: 80px;
+	color: rgba(256,256,256,1);
+}
+.ntext1 .social-ico
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 10px;
+	display: inline-block;
+}
+.ntext1 .social-ico .facebook
+{
+	border: 2px solid transparent;
+	height: 30px;
+	width: 30px;
+	margin: 2px;
+	border-radius: 50%;
+	background: #3b5998; 
+}
+.ntext1 .social-ico .facebook .fab
+{
+	color: rgba(256,256,256,1);
+	line-height: 30px;
+}
+.ntext1 .social-ico .google
+{
+	border: 2px solid transparent;
+	height: 30px;
+	width: 30px;
+	margin: 2px;
+	border-radius: 50%;
+	background: #d34836;
+}
+.ntext1 .social-ico .google .fab
+{
+	color: rgba(256,256,256,1);
+	line-height: 30px;
+}
+.ntext1 .social-ico .twitter
+{
+	border: 2px solid transparent;
+	height: 30px;
+	width: 30px;
+	margin: 2px;
+	border-radius: 50%;
+	background: #38A1F3;
+}
+.ntext1 .social-ico .twitter .fab
+{
+	color: rgba(256,256,256,1);
+	line-height: 30px;
+}
+.ntext1 .social-ico .instagram
+{
+	border: 2px solid transparent;
+	height: 30px;
+	width: 30px;
+	margin: 2px;
+	border-radius: 50%;
+	background: #bc2a8d;
+}
+.ntext1 .social-ico .instagram .fab
+{
+	color: rgba(256,256,256,1);
+	line-height: 30px;
+	font-size: 22px;
+}
+.body1 .btn1
+{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 50px;
+	margin-top: 15px;
+}
+.body1 .btn1 a
+{
+	text-decoration: none;
+	font-family: apple-bold;
+	color: #fff;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	text-align: center;
+	padding: 15px 40px;
+	background: #00B0FF;
+	transition: 1s ease;
+}
+.body1 .btn1 a:hover
+{
+	background: rgba(0,0,0,0);
+	border: 1px solid #fff;
+}
+.info
+{
+	background: #fff;
+	background-size: cover;
+	position: relative;
+}
+.info-text
+{
+	justify-content: center;
+	width: 100%;
+	padding-top: 100px;
+}
+.info .info-text h2
+{
+	font-family: apple-regular;
+	font-weight: bold;
+	font-size: 50px;
+	color: #000;
+	text-align: center;
+	margin-top: 10px;
+}
+.info p
+{
+	font-family: apple-regular;
+	text-align: center;
+	color: rgba(0,0,0,0.4); 
+}
+.info .info-container
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.info .info-container .info-tile
+{
+  max-width: 25%;
+  padding: 10px;
+  text-align: center;
+  color: #000;
+  cursor: pointer;
+}
+.info-tile h4
+{
+	font-family: apple-bold;
+	font-weight: normal;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.info-tile i
+{
+	color: #25CCF7;
+	font-size: 35px;
+	height: 40px;
+	width: 40px;
+	border: 0px solid transparent;
+	box-shadow: 0px 3px 4px #8888;
+	border-radius: 5px;
+	padding: 20px 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	transition: 0.7s ease;	
+}
+.info-tile:hover i
+{
+	background: linear-gradient(45deg,rgba(3, 169, 244,1.0),rgba(63, 81, 181,1.0));
+	color: #ecf0f1;
+}
+@media screen and (max-width:960px) {
+  .info .info-container .info-tile{
+    max-width: 45%;
+  }
+  .ntext1 h1
+  {
+  	font-size: 70px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .info .info-container .info-tile{
+    max-width: 50%;
+  }
+  .ntext1 h1
+  {
+  	font-size: 60px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .info .info-container .info-tile{
+    max-width: 100%;
+  }
+  .ntext1 h1
+  {
+  	font-size: 58px;
+  }
+  .body1 .btn1 a
+  {
+  	padding: 15px 15px;
+  }
+}
+.body3
+{
+	background: #fff;
+	background-size: cover;
+	overflow: hidden;
+}
+.body3 h1
+{
+	text-align: center;
+	font-family: apple-bold;
+	font-weight: normal;
+	text-shadow: 5px 5px 10px #8888;
+	padding: 15px;
+	text-decoration: underline #00B0FF;
+}
+.body4
+{
+	background: #000;
+	background-size: cover;
+	position: relative;
+}
+.body5
+{
+	background: #fff;
+	background-size: cover;
+	height: 50vh;
+	width: 100%;
+}
