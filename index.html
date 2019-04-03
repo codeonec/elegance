@@ -106,6 +106,18 @@
 	</div>
 
 	<section class="body2">
+		<div class="body-container">
+			<div class="body-section">
+				<span class="text">Our Premium Users All Over The World</span>
+				<span class="border"></span>
+				<span class="count">15642</span>
+				<span class="text1">Users form all over the world are joinig us. Different premium packs allows you to full access, advanced security and enhanced customer support.</span>
+				<span class="btn"><a href="#">Join Us</a></span>
+			</div>
+			<div class="body-section">
+				<span class="img"><img src="images/sec2.png"></span>
+			</div>
+		</div>
 	</section>
 
 	<div class="body3">	
@@ -179,8 +191,8 @@
 			</div>
 			<div class="chart-text">
 				<span class="text1">Past few years of progress</span>
-				<span class="text2">A powerful template also mobile friendly.</span>
-				<span class="btn1"><a href="#">Collabration</a></span>
+				<span class="text2">A powerful template also mobile friendly. A Single-page/multi-page responsive morden HTML design.</span>
+				<span class="btn1"><a href="#">Get Started</a></span>
 			</div>
 	</section>
 
@@ -208,6 +220,19 @@
 		function preLoader(){
 			preloader.style.display = 'none' ;
 		}
+	</script>
+	<script type="text/javascript">
+		$('.count').each(function () {
+		$(this).prop('Counter',0).animate({
+		        Counter: $(this).text()
+		    }, {
+		        duration: 5500,
+		        easing: 'swing',
+		        step: function (now) {
+		            $(this).text(Math.ceil(now));
+		        }
+		    });
+		});
 	</script>
 </body>
 <html>

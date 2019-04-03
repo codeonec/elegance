@@ -110,6 +110,7 @@ nav .toogle
 	#logo
 	{
 		color: #000;
+		line-height: 25px;
 	}
 }
 .black
@@ -119,7 +120,7 @@ nav .toogle
 	width: 100%;
 	background: rgba(256, 256, 256,1.0);
 	overflow: hidden;
-	box-shadow: 2px 18px 20px #8888;
+	border-bottom: 1px solid #8888; 
 }
 .black a
 {
@@ -153,10 +154,89 @@ nav .toogle
 }
 .body2
 {
-	background: linear-gradient(90deg, rgba(30,144,255,1),rgba(138,43,226,1));
-	background-size: cover;
-	height: 75vh;
-	width: 100%; 
+	background: linear-gradient(90deg, rgba(30,144,255,1),rgba(138,43,226,1));	
+}
+.body2 .body-container
+{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; 
+}
+.body2 .body-container .body-section
+{
+	display: inline-block;
+}
+.body2 .body-container .body-section span
+{
+	display: block;
+	text-align: center;
+	margin: 20px;
+}
+.body2 .body-container .body-section img
+{
+	height: 300px;
+	width: auto;
+}
+.body2 .body-container .body-section a
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	border: 0px solid transparent;
+	border-radius: 15px 30px 30px 0px;
+	padding: 10px 20px;
+	background: #F50057;
+	box-shadow: 2px 2px 10px #424242;
+	transition: 0.5s ;
+	font-family: apple-bold;
+}
+.body2 .body-container .body-section a:hover
+{
+	background: linear-gradient(45deg, rgba(41, 98, 255,1.0),rgba(170, 0, 255,1.0));
+	padding: 15px 25px;
+}
+.body2 .body-container .body-section .btn
+{
+	padding-top: 30px;
+}
+.body2 .body-container .body-section .border
+{
+	border-top: 5px solid #F50057;	
+}
+.body2 .body-container .body-section .text
+{
+	color: #fff;
+	font-size: 35px;
+	font-family: apple-bold;
+}
+.body2 .body-container .body-section .count
+{
+	color: #F50057;
+	font-family: apple-bold;
+	font-size: 40px;
+}
+.body2 .body-container .body-section .text1
+{
+	max-width: 600px;
+	color: #fff;
+	font-size: 20px;
+	font-family: apple-bold;
+}
+@media screen and (max-width:768px){
+	.body2 .body-container .body-section img{
+		height: 250px;
+		width: auto;
+		padding-top: 20px;
+	}
+}
+@media screen and (max-width:480px){
+	.body2 .body-container .body-section img{
+		height: 150px;
+		width: auto;
+		padding-top: 20px;
+	}
 }
 nav .logo 
 {
@@ -420,7 +500,6 @@ nav .logo img
 .body4
 {
 	background: #000;
-	background-size: cover;
 	position: relative;
 }
 .body5

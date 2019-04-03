@@ -4,7 +4,8 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	color: #fff;
-	padding-bottom: 30px;
+	padding-bottom: 50px;
+	padding-top: 70px; 
 }
 .box .contai{
 	display: flex;
@@ -34,7 +35,7 @@
 	font-size: 20px;
 	padding-top: 20px;
 	text-align: center; 
-	padding-bottom: 30px; 
+	padding-bottom: 100px; 
 }
 .chart-text span
 {
@@ -48,7 +49,7 @@
 }
 .chart-text .btn1
 {
-	padding-top: 10px; 
+	padding-top: 40px; 
 }
 .chart-text .btn1 a
 {
