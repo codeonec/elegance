@@ -16,6 +16,7 @@
 	font-family: 'apple-regular';
 	src: url('../fonts/apple-regular.ttf');
 }
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 *
 {
 	margin: 0;
@@ -111,6 +112,10 @@ nav .toogle
 	{
 		color: #000;
 		line-height: 25px;
+	}
+	#logo h3
+	{
+		padding-left: 0px;
 	}
 }
 .black
@@ -505,7 +510,91 @@ nav .logo img
 .body5
 {
 	background: #fff;
-	background-size: cover;
-	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	
+}
+.body5 .container
+{
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.body5 .container .box
+{
+	text-align: center;
+	padding: 5px;
+}
+.body5 .container .box .icon
+{
+	color: #000;
+}
+.body5 .container .box .icon .fas,.body5 .container .box .icon .fab
+{
+	font-size: 60px;
+	cursor: pointer;
+	margin: 5px;
+}
+.body5 .container .box .icon h4,
+.body5 .container .box .icon h3
+{
+	color: #000;
+	font-family: 'Poppins', sans-serif;
+	margin: 10px;
+	position: relative;
+	font-weight: 600;
+	padding: 2px 5px;
+	font-size: 20px;
+	overflow: hidden;
+	transition-delay: 0.3333s;
+	color: transparent;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+.body5 .container .box .icon .fas:hover ~ h4,
+.body5 .container .box .icon .fas:hover ~ h3
+{
+	color: #000;
+}
+.body5 .container .box .icon h3
+{
+	font-weight: 400;
+	margin: 5px 0;
+}
+.body5 .container .box .icon h4:before,
+.body5 .container .box .icon h3:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 100%;
 	width: 100%;
+	height: 100%;
+	background: #F50057;
+	transition: 1s;
+}
+.body5 .container .box .icon h4:before
+{
+	left: initial;
+	right: 100%;
+	background: rgba(41, 98, 255,1.0);
+}
+.body5 .container .box .icon .fas:hover ~ h3:before
+{
+ 	 left: -100%;
+}
+.body5 .container .box .icon .fas:hover ~ h4:before
+{
+	left: initial;
+	right: -100%;
+}
+@media screen and (max-width:480px){
+	.body5 .container .box
+	{
+		width: 100%;
+	}
 }

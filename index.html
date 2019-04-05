@@ -9,6 +9,7 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
 <body onload="preLoader()">
 		<nav>
@@ -197,8 +198,28 @@
 	</section>
 
 	<section class="body5">
-		<div class="progress-index">
-			<h3>HTML</h3><div class="bar"><span><span class="html"></span></span></div>
+		<div class="container">
+			<div class="box">
+				<div class="icon">
+					<i class="fas fa-map-marked-alt"></i>
+					<h4>Address</h4>
+					<h3>Gujarat, 390025, India</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="icon">
+					<i class="fas fa-phone"></i>
+					<h4>Phone</h4>
+					<h3>+91 123 456 7890</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="icon">
+					<i class="fas fa-envelope"></i>
+					<h4>Email</h4>
+					<h3>ritul.patel904@gmail.com</h3>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -226,7 +247,7 @@
 		$(this).prop('Counter',0).animate({
 		        Counter: $(this).text()
 		    }, {
-		        duration: 5500,
+		        duration: 7000,
 		        easing: 'swing',
 		        step: function (now) {
 		            $(this).text(Math.ceil(now));
