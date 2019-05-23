@@ -57,13 +57,13 @@ nav ul li
 }
 nav ul li:hover
 {
-	border-bottom: 5px solid #00B0FF;
+	border-bottom: 5px solid #F50057;
 }
 nav ul li a
 {
 	text-decoration: none;
 	color: #fff;
-	font-family: apple-bold;
+	font-family: 'Poppins', sans-serif;
 }
 nav ul li:hover a
 {
@@ -79,6 +79,18 @@ nav .toogle
 	color: #000;
 	font-size: 20px;
 	display: none;
+}
+nav .toogle i
+{
+	border: 1px solid #8888;
+	border-radius: 4px;
+	padding: 5px 10px;
+	transition: 0.5s;
+}
+nav .toogle i:hover
+{
+	background: #000;
+	color: #fff;
 }
 @media (max-width: 768px)
 {
@@ -111,7 +123,7 @@ nav .toogle
 	#logo
 	{
 		color: #000;
-		line-height: 25px;
+		line-height: 30px;
 	}
 	#logo h3
 	{
@@ -142,15 +154,11 @@ nav .toogle
 }
 #active
 {
-	border-bottom: 5px solid #00B0FF;
-}
-#active a
-{
-	color: #00B0FF;
+	border-bottom: 5px solid #F50057;
 }
 .body1
 {
-	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/1.jpg);
+	background: linear-gradient(90deg,rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)), url(../images/1.jpg);
 	background-size: cover;
 	background-position: center; 
  	height: 100vh;
@@ -250,7 +258,7 @@ nav .logo
 	float: left;
 	margin-left: 10px;
 	color: #FFF;
-	font-family: apple-bold;
+	font-family: 'Poppins', sans-serif;
 	font-size: 30px;
 	text-align: center;
 	padding-top: 8px;
@@ -261,8 +269,8 @@ nav .logo
 }
 nav .logo h3
 {
-	font-family: apple-bold;
-	font-weight: normal;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
 	font-size: 30px;
 	padding-left: 5px;
 }
@@ -281,17 +289,19 @@ nav .logo img
 	left: 50%;
 	transform: translate(-50%,-50%);
 	background: rgba(0,0,0,0);
-	font-family: apple-regular;
-	font-size: 20px;
-	color: rgba(256,256,256,0.9);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: rgba(256,256,256,0.8);
 	text-align: center;
 
 }
 .ntext1 h1
 {
 	background: inherit;
-	font-family: apple-bold;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 80px;
+	font-weight: 700;
 	color: rgba(256,256,256,1);
 }
 .ntext1 .social-ico
@@ -309,7 +319,12 @@ nav .logo img
 	width: 30px;
 	margin: 2px;
 	border-radius: 50%;
-	background: #3b5998; 
+	background: rgba(256,256,256,0.3); 
+	transition: 0.5s;
+}
+.ntext1 .social-ico .facebook:hover
+{
+	background: #3b5998;
 }
 .ntext1 .social-ico .facebook .fab
 {
@@ -323,6 +338,11 @@ nav .logo img
 	width: 30px;
 	margin: 2px;
 	border-radius: 50%;
+	background: rgba(256,256,256,0.3); 
+	transition: 0.5s;
+}
+.ntext1 .social-ico .google:hover
+{
 	background: #d34836;
 }
 .ntext1 .social-ico .google .fab
@@ -337,6 +357,11 @@ nav .logo img
 	width: 30px;
 	margin: 2px;
 	border-radius: 50%;
+	background: rgba(256,256,256,0.3); 
+	transition: 0.5s;
+}
+.ntext1 .social-ico .twitter:hover
+{
 	background: #38A1F3;
 }
 .ntext1 .social-ico .twitter .fab
@@ -351,6 +376,11 @@ nav .logo img
 	width: 30px;
 	margin: 2px;
 	border-radius: 50%;
+	background: rgba(256,256,256,0.3); 
+	transition: 0.5s;
+}
+.ntext1 .social-ico .instagram:hover
+{
 	background: #bc2a8d;
 }
 .ntext1 .social-ico .instagram .fab
@@ -366,24 +396,22 @@ nav .logo img
 	left: 50%;
 	transform: translate(-50%,-50%);
 	height: 50px;
-	margin-top: 15px;
+	padding-top: 50px;
 }
 .body1 .btn1 a
 {
 	text-decoration: none;
 	font-family: apple-bold;
 	color: #fff;
-	border: 1px solid transparent;
-	border-radius: 5px;
+	border-radius: 20px 30px 30px 0;
 	text-align: center;
 	padding: 15px 40px;
-	background: #00B0FF;
-	transition: 1s ease;
+	background: linear-gradient(45deg,#AA00FF,#6200EA);
+	transition: 0.5s;
 }
 .body1 .btn1 a:hover
 {
-	background: rgba(0,0,0,0);
-	border: 1px solid #fff;
+	padding: 20px 50px;
 }
 .info
 {
@@ -480,11 +508,15 @@ nav .logo img
   }
   .ntext1 h1
   {
-  	font-size: 58px;
+  	font-size: 52px;
   }
   .body1 .btn1 a
   {
   	padding: 15px 15px;
+  }
+  .body1 .btn1 a:hover
+  {
+  	padding: 20px 20px;
   }
 }
 .body3
