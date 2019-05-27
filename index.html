@@ -9,7 +9,7 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Oswald|Poppins:300,400,700|Raleway&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Oswald|Poppins:300,400,700|Raleway&display=swap" rel="stylesheet"> 
 </head>
 <body onload="preLoader()">
 	<nav>
@@ -230,9 +230,10 @@
 	<script>
 		$(function() {
 			$('.chart').easyPieChart({
-				barColor:"#718093",
+				barColor:"#2962FF",
+				trackColor:"#8888",
 				lineWidth:10,
-				lineCap:"square",
+				lineCap:"round",
 				scaleColor:"false",
 				//your options goes here
 			});
@@ -249,7 +250,7 @@
 		$(this).prop('Counter',0).animate({
 		        Counter: $(this).text()
 		    }, {
-		        duration: 7000,
+		        duration: 10000,
 		        easing: 'swing',
 		        step: function (now) {
 		            $(this).text(Math.ceil(now));

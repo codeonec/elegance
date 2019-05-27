@@ -26,7 +26,7 @@
 	color: #fff;
 	text-align: center; 
 	transform: translate(0%,200%);
-	font-family: apple-bold;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
 }
 .chart-text
@@ -41,11 +41,20 @@
 {
 	display: block;
 }
+.box .contai .chart .text h5
+{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
 .chart-text .text1
 {
-	font-family: apple-bold;
-	font-weight: normal;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 	font-size: 30px;
+}
+.chart-text .text1
+{
+	font-family: 'Montserrat', sans-serif;
 }
 .chart-text .btn1
 {
@@ -55,17 +64,18 @@
 {
 	text-decoration: none;
 	color: #fff;
-	font-family: apple-bold;
-	font-size: 20px; 
-	border: 2px solid #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 18px; 
+	border: 2px solid #2962FF;
 	padding: 5px 10px;
 	border-radius: 30px;
 	transition: 0.5s ease;  
 }
 .chart-text .btn1 a:hover
 {
-	background: #fff;
-	color: #000;
+	background: #2962FF;
+	color: #fff;
 }
 @media screen and (max-width:470px) {
 	.contai{

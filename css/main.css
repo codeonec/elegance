@@ -136,7 +136,8 @@ nav .toogle i:hover
 	width: 100%;
 	background: rgba(256, 256, 256,1.0);
 	overflow: hidden;
-	border-bottom: 1px solid #8888; 
+	border-bottom: 1px solid #8888;
+	box-shadow: 0px 10px 20px #8888; 
 }
 .black a
 {
@@ -413,7 +414,7 @@ nav .logo img
 }
 .info
 {
-	background: #fff;
+	background: #FAFAFA;
 	background-size: cover;
 	position: relative;
 }
@@ -425,18 +426,20 @@ nav .logo img
 }
 .info .info-text h2
 {
-	font-family: apple-regular;
-	font-weight: bold;
-	font-size: 50px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
 	color: #000;
 	text-align: center;
 	margin-top: 10px;
+	text-decoration: underline #2962FF;
 }
 .info p
 {
-	font-family: apple-regular;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
 	text-align: center;
-	color: rgba(0,0,0,0.4); 
+	color: rgba(0,0,0,0.6); 
 }
 .info .info-container
 {
@@ -444,7 +447,7 @@ nav .logo img
 	flex-wrap: wrap;
 	justify-content: center;
 	margin-top: 50px;
-	margin-bottom: 50px;
+	padding-bottom: 150px;
 }
 .info .info-container .info-tile
 {
@@ -456,20 +459,22 @@ nav .logo img
 }
 .info-tile h4
 {
-	font-family: apple-bold;
-	font-weight: normal;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
 .info-tile i
 {
-	color: #25CCF7;
+	color: #2962FF;
+	background: #fff;
 	font-size: 35px;
 	height: 40px;
 	width: 40px;
 	border: 0px solid transparent;
-	box-shadow: 0px 3px 4px #8888;
-	border-radius: 5px;
+	box-shadow: 0px 3px 7px #8888;
+	border-radius: 30px;
 	padding: 20px 20px;
 	margin-bottom: 10px;
 	margin-top: 10px;
@@ -477,7 +482,7 @@ nav .logo img
 }
 .info-tile:hover i
 {
-	background: linear-gradient(45deg,rgba(3, 169, 244,1.0),rgba(63, 81, 181,1.0));
+	background: #2962FF;
 	color: #ecf0f1;
 }
 @media screen and (max-width:960px) {
