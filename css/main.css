@@ -454,7 +454,7 @@ nav .logo img
 }
 .info
 {
-	background: #FAFAFA;
+	background: #fff;
 	background-size: cover;
 	position: relative;
 }
@@ -476,11 +476,12 @@ nav .logo img
 }
 .info p
 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-	font-size: 12px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
 	text-align: center;
 	color: rgba(0,0,0,0.6); 
+	padding: 30px;
 }
 .info .info-container
 {
@@ -493,38 +494,46 @@ nav .logo img
 .info .info-container .info-tile
 {
   max-width: 25%;
-  padding: 10px;
   text-align: center;
   color: #000;
   cursor: default;
+  background: #F5F5F5;
+  border-radius: 30px 30px 30px 0;
+  margin:  30px;
+  transition: 0.5s;
+}
+.info .info-container .info-tile .info-ico
+{
+	background: linear-gradient(45deg,#304FFE,#651FFF);
+	border-radius: 30px 30px 30px 0;
 }
 .info-tile h4
 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 25px;
+	padding-top: 30px;
 }
 
 .info-tile i
 {
-	color: #2962FF;
-	background: #fff;
-	font-size: 35px;
+	color: #fff;
+	font-size: 40px;
 	height: 40px;
 	width: 40px;
-	border: 0px solid transparent;
-	box-shadow: 0px 3px 7px #8888;
-	border-radius: 50%;
 	padding: 20px 20px;
-	margin-bottom: 10px;
-	margin-top: 10px;
+	margin-bottom: 25px;
+	margin-top: 25px;
 	transition: 0.7s ease;	
 }
-.info-tile:hover i
+.info .info-container .info-tile:hover 
 {
-	background: #2962FF;
-	color: #ecf0f1;
+	box-shadow: 0px 3px 20px rgba(0,0,0,0.2); 
+	background: #fff;
+}
+.info .info-container .info-tile:hover i
+{
+	transform: rotateY(180deg);
 }
 @media screen and (max-width:960px) {
   .info .info-container .info-tile{
@@ -553,6 +562,10 @@ nav .logo img
   .cntr1 h1
   {
   	font-size: 52px;
+  }
+  .info p
+  {
+  	padding: 20px;
   }
 }
 .body3
