@@ -175,7 +175,7 @@ nav .toogle i:hover
 }
 .body1
 {
-	background: linear-gradient(90deg,rgba(256,256,256,0.1),rgba(256,256,256,0.1)),url(../images/12.jpg);
+	background: url(../images/12.jpg);
 	background-size: cover;
 	background-position: center; 
  	height: 100vh;
@@ -308,7 +308,8 @@ nav .logo img
 			font-family: 'Poppins', sans-serif;
 			font-weight: 700;
 			font-size: 80px;
-			color: #fff;
+			color: #FFF;
+			text-shadow: 0px 2px 8px rgba(0, 0, 0,0.6);
 		}
 		.cntr1 h4
 		{
@@ -316,6 +317,7 @@ nav .logo img
 			font-weight: 600;
 			color: rgba(256,256,256,0.8);
 			color: #fff;
+			text-shadow: 0px 2px 8px rgba(0, 0, 0,0.6);
 		}
 		.cntr1 .sec
 		{
@@ -337,10 +339,11 @@ nav .logo img
 			border-radius: 20px 30px 30px 0;
 			text-align: center;
 			padding: 15px 40px;
-			background: linear-gradient(45deg,#AA00FF,#6200EA);
+			background: linear-gradient(45deg,#FF1744,#D500F9);
 			transition: 0.5s;
 			font-family: 'Montserrat', sans-serif;
 			font-weight: 600;
+			box-shadow: 0px 2px 8px rgba(0, 0, 0,0.6);
 		}
 		.cntr1 .sec .btn1:hover
 		{
@@ -363,7 +366,7 @@ nav .logo img
 	margin: 2px;
 	border-radius: 50%;
 	background:  #F5F5F5; 
-	box-shadow: 0px 2px 5px #8888; 
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.7); 
 	transition: 0.5s;
 }
 .cntr1 .sec .social-ico .facebook:hover 
@@ -376,8 +379,8 @@ nav .logo img
 }
 .cntr1 .sec .social-ico .facebook .fab
 {
-	color: rgba(0,0,0,1);
 	line-height: 30px;
+	color: #3b5998;
 }
 .cntr1 .sec .social-ico .google
 {
@@ -387,7 +390,7 @@ nav .logo img
 	margin: 2px;
 	border-radius: 50%;
 	background:  #F5F5F5; 
-	box-shadow: 0px 2px 5px #8888; 
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.7); 
 	transition: 0.5s;
 }
 .cntr1 .sec .social-ico .google:hover
@@ -400,8 +403,8 @@ nav .logo img
 }
 .cntr1 .sec .social-ico .google .fab
 {
-	color: rgba(0,0,0,1);
 	line-height: 30px;
+	color: #d34836;
 }
 .cntr1 .sec .social-ico .twitter
 {
@@ -411,7 +414,7 @@ nav .logo img
 	margin: 2px;
 	border-radius: 50%;
 	background:  #F5F5F5;
-	box-shadow: 0px 2px 5px #8888;  
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.7);  
 	transition: 0.5s;
 }
 .cntr1 .sec .social-ico .twitter:hover
@@ -424,8 +427,8 @@ nav .logo img
 }
 .cntr1 .sec .social-ico .twitter .fab
 {
-	color: rgba(0,0,0,1);
 	line-height: 30px;
+	color: #38A1F3;
 }
 .cntr1 .sec .social-ico .instagram
 {
@@ -435,7 +438,7 @@ nav .logo img
 	margin: 2px;
 	border-radius: 50%;
 	background: #F5F5F5;
-	box-shadow: 0px 2px 5px #8888; 
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.7); 
 	transition: 0.5s;
 }
 .cntr1 .sec .social-ico .instagram:hover
@@ -448,9 +451,9 @@ nav .logo img
 }
 .cntr1 .sec .social-ico .instagram .fab
 {
-	color: rgba(0,0,0,1);
 	line-height: 30px;
 	font-size: 22px;
+	color: #bc2a8d;
 }
 .info
 {
