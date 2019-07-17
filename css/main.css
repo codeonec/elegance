@@ -985,16 +985,16 @@ nav .logo img
 		}
 		.footer .ftr-sec .headr
 		{
-			color: #fff;
+			color: #00B0FF;
 			font-family: 'Montserrat', sans-serif;
-			font-weight: 700;
+			font-weight: 600;
 			font-size: 14px;
 		}
 		.footer .ftr-sec .abt
 		{
 			width: 250px;
 			font-size: 12px;
-			font-weight: 600;
+			font-weight: 500;
 			font-family: 'Montserrat', sans-serif;
 			color: rgba(256,256,256,0.5);
 			padding-top: 5px;
@@ -1008,7 +1008,7 @@ nav .logo img
 			text-decoration: none;
 			color: rgba(256,256,256,0.5);
 			font-size: 12px;
-			font-weight: 600;
+			font-weight: 500;
 			font-family: 'Montserrat', sans-serif;
 		}
 		#hdr2
@@ -1054,7 +1054,7 @@ nav .logo img
 		 	padding-left: 5px;
 		 	color: rgba(256,256,256,0.5);
 			font-size: 16px;
-			font-weight: 600;
+			font-weight: 500;
 			font-family: 'Montserrat', sans-serif;
 
 		}
@@ -1063,7 +1063,7 @@ nav .logo img
 			text-decoration: none;
 			color: #2962FF;
 			font-size: 16px;
-			font-weight: 600;
+			font-weight: 500;
 			font-family: 'Montserrat', sans-serif;
 		}
 		.tmark
